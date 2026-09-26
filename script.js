@@ -27,3 +27,5 @@ formulario.addEventListener("submit", function(event) {
     alert("Cadastro realizado com sucesso!");
     formulario.reset();
 });
+
+    document.querySelector("h1").textContent = "Cadastro realizado!";
